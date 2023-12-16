@@ -11,3 +11,4 @@
 ### [Web API 2](web-api)
 1. For web api task used only js and html as per requirement
     - Data is fetching correctly and rendered in [index.html](web-api/index.html) file but i have added CORS issue solution as well.
+    - JS functions are inside[js/script.js](web-api/js/script.js)
