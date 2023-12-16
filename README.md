@@ -14,4 +14,8 @@
     - JS functions are inside[js/script.js](web-api/js/script.js)
 
 ### [Angular](angular)
-- Task is in process
+1. Added three components **HOME, ABOUT, TASK-FORM**
+2. Added **DATA** service and called into /about
+3. Added **EXT-SCRIPT.js** and called under home component only and displaying message in console
+4. Reactice form added as a component **TASK-FORM** and displaying single field on homepage
+5. Setup serve options port to 5003 so now whenever we run command ***ng serve*** project will run on port 5003
