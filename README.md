@@ -9,4 +9,5 @@
 3. Just for PHP used **DOCKERS**, and for docker-compose.yml we must need dockers in the machine and after running we can access php solutions by localhost:8000/solution.php
 
 ### [Web API 2](web-api)
-1. For web api task used only js and html as er requirement
+1. For web api task used only js and html as per requirement
+    - Data is fetching correctly and rendered in [index.html](web-api/index.html) file but i have added CORS issue solution as well.
