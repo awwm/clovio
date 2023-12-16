@@ -26,9 +26,9 @@ function selectionSort($arr) {
     return $arr;
 }
 // Given list
-$inputArray = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
-$sortedArray = selectionSort($inputArray);
-print_r($sortedArray);
+$nums = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0];
+$result = selectionSort($nums);
+print_r($result);
 
 
 echo '<h2>1.2) linear search</h2>';
