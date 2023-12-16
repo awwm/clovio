@@ -32,7 +32,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/ext-script.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {

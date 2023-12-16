@@ -8,5 +8,14 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
+  ngOnInit(): void {
+    // Use the external script
+    this.loadExternalScript();
+  }
 
+  private loadExternalScript(): void {
+    const script = document.createElement('script');
+    script.src = 'assets/ext-script.js';
+    document.body.appendChild(script);
+  }
 }
