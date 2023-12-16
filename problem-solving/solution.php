@@ -5,7 +5,8 @@ echo '<h1>Solutions</h1>';
 
 
 echo '<h2>1.1) selection sort algorithm</h2>';
-function selectionSort($arr) {
+function selectionSort($arr)
+{
     $n = count($arr);
 
     for ($i = 0; $i < $n - 1; $i++) {
@@ -32,7 +33,8 @@ print_r($result);
 
 
 echo '<h2>1.2) linear search</h2>';
-function linearSearch($arr, $target) {
+function linearSearch($arr, $target)
+{
     foreach ($arr as $num) {
         if ($num == $target) {
             return true;
@@ -52,7 +54,8 @@ echo $result ? 'true' : 'false';
 
 
 echo '<h2>1.3) binary search</h2>';
-function binarySearch($arr, $target) {
+function binarySearch($arr, $target)
+{
     $low = 0;
     $high = count($arr) - 1;
 
