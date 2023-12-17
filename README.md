@@ -39,3 +39,6 @@
         - If you want to serve your application over HTTPS (port 443), you'll need an SSL certificate. 
 
 *** Remember to adjust the configurations based on your specific hosting environment and security requirements. Additionally, consider automating deployment and server configuration using tools like Docker, or CI/CD pipelines for smoother and more scalable processes. ***
+
+3. Prendering is enabled under angular.json by default discoverRoutes are true and we have only two pages so it shoudl work but we can setup routesFile for settings up further or specific urls
+4. Unit test can run by **ng test**
