@@ -20,3 +20,5 @@
 4. Reactice form added as a component **TASK-FORM** and displaying single field on homepage
 5. Setup serve options port to 5003 so now whenever we run command ***ng serve*** project will run on port 5003
 6. For angular universal and deployment related process please switch branch from main to angular-universal
+7. Prendering is enabled under angular.json by default discoverRoutes are true and we have only two pages so it shoudl work but we can setup routesFile for settings up further or specific urls
+8. Unit test can run by **ng test**
