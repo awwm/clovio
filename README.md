@@ -19,3 +19,4 @@
 3. Added **EXT-SCRIPT.js** and called under home component only and displaying message in console
 4. Reactice form added as a component **TASK-FORM** and displaying single field on homepage
 5. Setup serve options port to 5003 so now whenever we run command ***ng serve*** project will run on port 5003
+6. For angular universal and deployment related process please switch branch from main to angular-universal
